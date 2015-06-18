@@ -1,0 +1,16 @@
+% Thesis info
+\title{Agent conversațional pentru interacțiunea cu personalități istorice}
+\author{Adrian BOGATU}
+\date{2015}
+
+\titleen{Conversational Agent for Interacting with Historical Figures}
+\titlero{Agent conversațional pentru interacțiunea cu personalități istorice}
+\adviser{Ș.l. Dr. ing. Traian REBEDEA}
+\titlefooteren{Bucharest, 2015}
+\titlefooterro{București, 2015}
+
+% Macros
+% example: \newcommand{\EU}{European Union}
+% use '\EU\ ' if you want to enforce a space after the macro
+
+\newcommand{\project}{MySuperProject}

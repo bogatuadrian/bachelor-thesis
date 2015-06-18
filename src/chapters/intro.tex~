@@ -1,0 +1,58 @@
+\chapter{Introduction}
+\label{chapter:intro}
+
+More than 60 years ago, Alan Turing raised the question "Can machines think?" \cite{Turing1950}. 
+\\
+Can people believe that a machine thinks.
+
+\section{Question Answering}
+\label{sec:qa}
+
+\section{Conversational Agent}
+\label{sec:conversational-agent}
+
+\section{Project Objectives and Motivation}
+\label{sec:proj}
+
+% HELPERS
+
+% reference to \labelindexref{Section}{sub-sec:proj-objectives}.
+% \abbrev{CS}{Computer Science}
+% \labelindexref{Figure}{img:report-framework}.
+%\fig[scale=0.5]{src/img/reporting-framework.pdf}{img:report-framework}{Reporting Framework}
+% citations \cite{iso-odf}.
+% \index{Ultimate answer to all knowledge}
+
+
+\subsection{Project Scope}
+\label{sub-sec:proj-scope}
+
+
+
+\subsection{Project Objectives}
+\label{sub-sec:proj-objectives}
+
+
+\subsection{Related Work}
+
+
+\subsection{Tables}
+\begin{comment}
+We can also have tables... like \labelindexref{Table}{table:reports}.
+
+\begin{center}
+\begin{table}[htb]
+  \caption{Generated reports - associated Makefile targets and scripts}
+  \begin{tabular}{l*{6}{c}r}
+    Generated report & Makefile target & Script \\
+    \hline
+    Full Test Specification & full_spec & generate_all_spec.py  \\
+    Test Report & test_report & generate_report.py  \\
+    Requirements Coverage & requirements_coverage &
+    generate_requirements_coverage.py   \\
+    API Coverage & api_coverage & generate_api_coverage.py  \\
+  \end{tabular}
+  \label{table:reports}
+\end{table}
+\end{center}
+\end{comment}
