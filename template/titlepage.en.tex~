@@ -19,7 +19,7 @@
 		\par\vspace*{35mm}
 		{\Huge Bachelor Thesis}
 		\par\vspace*{15mm}
-		{\Huge\bf \VARtitleen}
+		{\Huge \VARtitleen}
 		\par\vspace*{35mm}
 		\begin{table*}[h]
         	\begin{center}
@@ -31,7 +31,7 @@
 			\end{center}
 		\end{table*}
 
-		\par\vspace*{40mm}
+		\par\vspace*{35mm}
 		\Large \VARtitlefooteren
 	\end{center}
 \end{titlepage}

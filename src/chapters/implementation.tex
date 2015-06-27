@@ -1,5 +1,27 @@
 \chapter{Implementation}
 \label{chapter:implementation}
 
+The architecture of the application contains two main modules: the user interface (UI) in the form of a Web Application, presented in \autoref{sec:impl-wa} and the actual implementation of the conversational agent, detailed in \autoref{sec:impl-conversational-agent}.
+
+In the next sections reference to the chat client, chat server and chat-bot signify the front end user interface, the back end of the web application and the conversational agent program respectively.
+
+\section{Web Application}
+\label{sec:impl-wa}
+
+The web application is the interface through which the user interacts with the conversational agent. It implements a chat client, a program where the user can input its questions and see the answers processed by the conversational agent and returned by the chat server. It also implements a chat server that connects to the chat-bot's endpoint. After the connection succeeds, the chat server passes the query received from the client to the chat-bot, waits for a reply and then sends the reply back to the client.
+
+The chat client is described in \autoref{sub-sec:impl-wa-front-end} and the chat server is described in \autoref{sub-sec:impl-wa-back-end}. The chat-bot's endpoint of the aforementioned connection between him and the chat server is explained at large in \autoref{sec:impl-conversational-agent}.
+
+\subsection{Front End}
+\label{sub-sec:impl-wa-front-end}
+
+The front end is written in HTML, CSS and JavaScript and it is composed of two main screens: the first page where the user can input the name of the personality he wishes to speak to; the second page, the actual chat box, where the conversation is displayed, and the input box, where the user can write the question and submit it.
+
+\subsection{Back End}
+\label{sub-sec:impl-wa-back-end}
+
+\section{Conversational Agent}
+\label{sec:impl-conversational-agent}
+
 \section{Testing}
 \label{sec:testing}

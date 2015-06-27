@@ -1,4 +1,20 @@
 % All chapters
 % do not include .tex extension
+
+% Introduction
 \include{src/chapters/intro}
-%\include{src/chapters/second-chapter}
+
+% Related Work
+\include{src/chapters/related}
+
+% Tools
+\include{src/chapters/tools}
+
+% Implementation
+\include{src/chapters/implementation}
+
+% Results
+\include{src/chapters/results}
+
+% Conclusions and Future Work
+\include{src/chapters/conclusions}

@@ -1,15 +1,22 @@
 \chapter{Introduction}
 \label{chapter:intro}
 
-More than 60 years ago, Alan Turing raised the question "Can machines think?" \cite{Turing1950}. 
+\ignore{65}More than 60 years ago, Alan Turing raised the question "Can machines think?" \cite{Turing1950}.
 \\
-Can people believe that a machine thinks.
+Can people believe that a machine thinks?
 
-\section{Question Answering}
-\label{sec:qa}
+\section{Natural Language Processing}
+\label{sec:nlp}
+
+Natural Language Processing (NLP)
 
 \section{Conversational Agent}
-\label{sec:conversational-agent}
+\label{sec:intro-conversational-agent}
+
+\section{Question Answering}
+\label{sec:intro-qa}
+
+Question Answering (QA)
 
 \section{Project Objectives and Motivation}
 \label{sec:proj}
@@ -24,19 +31,6 @@ Can people believe that a machine thinks.
 % \index{Ultimate answer to all knowledge}
 
 
-\subsection{Project Scope}
-\label{sub-sec:proj-scope}
-
-
-
-\subsection{Project Objectives}
-\label{sub-sec:proj-objectives}
-
-
-\subsection{Related Work}
-
-
-\subsection{Tables}
 \begin{comment}
 We can also have tables... like \labelindexref{Table}{table:reports}.
 

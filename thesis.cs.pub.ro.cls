@@ -12,7 +12,7 @@
 
 \let\ExecuteOptions@ltx\ExecuteOptions
 \def\ExecuteOptions#1{%
- \ExecuteOptions@ltx{a4paper,10pt,oneside,onecolumn,final}%
+ \ExecuteOptions@ltx{a4paper,11pt,oneside,onecolumn,final}%
 }%
 \LoadClassWithOptions{report}
 \let\ExecuteOptions\ExecuteOptions@ltx
@@ -45,15 +45,17 @@
 \usepackage{hyperref}
 \hypersetup{%
 	colorlinks=true,
-	linkcolor=blue,
+	linkcolor=black,
 	anchorcolor=black,
 	citecolor=black,
-	filecolor=blue,
+	filecolor=black,
 	menucolor=black,
-	urlcolor=blue,
+	urlcolor=black,
 	bookmarks=true,
 	bookmarksnumbered=true
 }
+\def\sectionautorefname{Section}
+
 \urlstyle{sf}
 
 % Treat _ as a normal character
@@ -103,7 +105,8 @@
 % http://www.gocad.org/meeting/Nancy2008/papers/gocad.sty
 \newcommand{\VARauthor} {}
 \newcommand{\VARdate} {}
-\newcommand{\VARadviser} {}
+\newcommand{\VARadviseren} {}
+\newcommand{\VARadviserro} {}
 \newcommand{\VARtitleen} {}
 \newcommand{\VARtitlero} {}
 \newcommand{\VARtitlefooteren} {}
@@ -111,7 +114,8 @@
 
 \renewcommand{\author}[1]{ \renewcommand{\VARauthor}{#1} }
 \renewcommand{\date}[1]{ \renewcommand{\VARdate}{#1} }
-\newcommand{\adviser}[1]{ \renewcommand{\VARadviser}{#1} }
+\newcommand{\adviseren}[1]{ \renewcommand{\VARadviseren}{#1} }
+\newcommand{\adviserro}[1]{ \renewcommand{\VARadviserro}{#1} }
 \newcommand{\titleen}[1]{ \renewcommand{\VARtitleen}{#1} }
 \newcommand{\titlero}[1]{ \renewcommand{\VARtitlero}{#1} }
 \newcommand{\titlefooteren}[1]{ \renewcommand{\VARtitlefooteren}{#1} }

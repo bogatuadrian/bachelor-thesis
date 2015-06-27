@@ -1,4 +1,10 @@
 \select@language {english}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {1.1}{\ignorespaces Reporting Framework \relax }}{2}{figure.caption.7}
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {4.1}{\ignorespaces Stanford CoreNLP execution pipeline}}{8}{figure.caption.12}
+\contentsline {figure}{\numberline {4.2}{\ignorespaces A co-reference example}}{9}{figure.caption.14}
+\addvspace {10\p@ }
+\addvspace {10\p@ }
 \addvspace {10\p@ }

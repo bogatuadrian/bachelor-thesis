@@ -8,3 +8,138 @@
   year = 	 {2006},
   annote = 	 {\url{http://www.iso.org/iso/iso_catalogue/catalogue_tc/catalogue_detail.htm?csnumber=43485}}
 }
+
+@inproceedings{Auer2007,
+abstract = {DBpedia is a community effort to extract structured information from Wikipedia and to make this information available on the Web. DBpedia allows you to ask sophisticated queries against datasets derived from Wikipedia and to link other datasets on the Web to Wikipedia data. We describe the extraction of the DBpedia datasets, and how the resulting information can be made available on the Web for humans and machines. We describe some emerging applications from the DBpedia community and show how website operators can reduce costs by facilitating royalty-free DBpedia content within their sites. Finally, we present the current status of interlinking DBpedia with other open datasets on the Web and outline how DBpedia could serve as a nucleus for an emerging Web of open data sources.},
+author = {Auer, S\"{o}ren and Bizer, Christian and Kobilarov, Georgi and Lehmann, Jens and Cyganiak, Richard and Ives, Zachary},
+booktitle = {Lecture Notes in Computer Science (including subseries Lecture Notes in Artificial Intelligence and Lecture Notes in Bioinformatics)},
+doi = {10.1007/978-3-540-76298-0\_52},
+isbn = {3540762973},
+issn = {03029743},
+pages = {722--735},
+title = {{DBpedia: A nucleus for a Web of open data}},
+url = {http://jenslehmann.org/files/2008/dbpedia.pdf},
+volume = {4825 LNCS},
+year = {2007}
+}
+
+@misc{dbpedia,
+title = {{DBpedia}},
+url = {dbpedia.org}
+}
+
+@article{Finlayson2013,
+author = {Finlayson, Mark Alan},
+file = {:home/adrian/current/licenta/bibliography/JWI\_WordNet.pdf:pdf},
+isbn = {9789949324927},
+journal = {the 7th Global Wordnet Conference},
+title = {{Code for Java Libraries for Accessing the Princeton Wordnet: Comparison and Evaluation}},
+url = {http://dspace.mit.edu/handle/1721.1/81949},
+year = {2013}
+}
+
+@article{Miller1995,
+abstract = {This database links English nouns, verbs, adjectives, and adverbs to sets of synonims that are in turn link through semantic relations that determine word definitions.},
+author = {Miller, George a.},
+doi = {10.1145/219717.219748},
+file = {:home/adrian/current/licenta/bibliography/1995 - Miller - WordNet a lexical database for English.pdf:pdf},
+isbn = {1558602720},
+issn = {00010782},
+journal = {Communications of the ACM},
+number = {11},
+pages = {39--41},
+pmid = {17081734},
+title = {{WordNet: a lexical database for English}},
+url = {http://friendica.biome.tk/20140731/Reference/1995 - Miller - WordNet a lexical database for English.pdf},
+volume = {38},
+year = {1995}
+}
+
+@article{Wilcox2011,
+author = {Wilcox, Bruce},
+file = {:home/adrian/current/licenta/bibliography/Pattern\_Matching\_for\_Natural\_Language\_Applications.pdf:pdf},
+journal = {Gamasutra},
+keywords = {3d animation,3d modeling,3d studio max textures,3d technology,arcade development,artificial intelligence,cmp game media group,computer game developers conference,digital assets,digital entertainment,dreamcast development,free 3d models,free shaders,free textures,gamasutra exchange,game animation,game audio,game business,game design,game developer,game developer magazine,game developers conference,game development,game development software,game directory,game industry research,game jobs,game news,game producer,game programmer,game programming,game technology,independent game developers conference,new game,nintendo development,online game development,pc game,playstation 2,playstation development,ps2,videogame,virtual reality,xbox game},
+pages = {1--5},
+title = {{Beyond Fa\c{c}ade: Pattern Matching for Natural Language Applications}},
+url = {http://www.gamasutra.com/view/feature/6305/beyond\_fa\c{c}ade\_pattern\_matching\_.php?page=1},
+year = {2011}
+}
+
+@article{Manning2014,
+author = {Manning, Christopher and Surdeanu, Mihai and Bauer, John and Finkel, Jenny and Bethard, Steven and McClosky, David},
+file = {:home/adrian/current/licenta/bibliography/acl2014-corenlp.pdf:pdf},
+journal = {Proceedings of 52nd Annual Meeting of the Association for Computational Linguistics: System Demonstrations},
+pages = {55--60},
+title = {{The Stanford CoreNLP Natural Language Processing Toolkit}},
+url = {http://www.aclweb.org/anthology/P/P14/P14-5010},
+year = {2014}
+}
+
+@article{Turing1950,
+author = {Turing, Alan},
+file = {:home/adrian/pub/4/2/licenta/bibliography/COMPUTING-MACHINERY-AND-INTELLIGENCE-Turing.pdf:pdf},
+issn = {0026-4423},
+journal = {Mind},
+number = {236},
+pages = {433--460},
+title = {{Computing machinery and intelligence}},
+url = {papers2://publication/uuid/E74CAAC6-F3DD-47E7-AEA6-5FB511730877},
+volume = {59},
+year = {1950}
+}
+
+@article{Lehmann2012,
+abstract = {The DBpedia community project extracts structured, multilingual knowledge from Wikipedia and makes it freely available on theWeb using SemanticWeb and Linked Data technologies. The project extracts knowledge from 111 different language editions ofWikipedia. The largest DBpedia knowledge base which is extracted from the English edition ofWikipedia consists of over 400 million facts that describe 3.7 million things. The DBpedia knowledge bases that are extracted from the other 110Wikipedia editions together consist of 1.46 billion facts and describe 10 million additional things. The DBpedia project maps Wikipedia infoboxes from 27 different language editions to a single shared ontology consisting of 320 classes and 1,650 properties. The mappings are created via a world-wide crowd-sourcing effort and enable knowledge from the differentWikipedia editions to be combined. The project publishes regular releases of all DBpedia knowledge bases for download and provides SPARQL query access to 14 out of the 111 language editions via a global network of local DBpedia chapters. In addition to the regular releases, the project maintains a live knowledge base which is updated whenever a page inWikipedia changes. DBpedia sets 27 million RDF links pointing into over 30 external data sources and thus enables data from these sources to be used together with DBpedia data. Several hundred data sets on theWeb publish RDF links pointing to DBpedia themselves and thus make DBpedia one of the central interlinking hubs in the Linked Open Data (LOD) cloud. In this system report, we give an overview of the DBpedia community project, including its architecture, technical implementation, maintenance, internationalisation, usage statistics and applications. Keywords:},
+author = {Lehmann, Jens and Isele, Robert and Jakob, Max and Jentzsch, Anja and Kontokostas, Dimitris and Mende, Pablo N. and Hellmann, Sebastian and Morsey, Mohamed and van Kleef, Patrick and Auer, Soren and Bizer, Christian},
+doi = {10.3233/SW-140134},
+file = {:home/adrian/current/licenta/bibliography/DBpedia2014.pdf:pdf},
+issn = {22104968},
+journal = {Semantic Web},
+keywords = {knowledge extraction,linked data,multilingual knowledge bases,rdf,wikipedia},
+pages = {1--5},
+title = {{DBpedia – A Large-scale , Multilingual Knowledge Base Extracted from Wikipedia}},
+url = {http://svn.aksw.org/papers/2013/SWJ\_DBpedia/public.pdf},
+volume = {1},
+year = {2012}
+}
+
+@article{Miller1990,
+abstract = {WordNet is an on-line lexical reference system whose design is inspired by current psycholinguistic theories of human lexical memory. English nouns, verbs, and adjectives are organized into synonym sets, each representing one underlying lexical concept. Different relations link the synonym sets.},
+author = {Miller, George A. and Beckwith, Richard and Fellbaum, Christiane and Gross, Derek and Miller, Katherine J.},
+doi = {10.1093/ijl/3.4.235},
+isbn = {0950384614774577},
+issn = {09503846},
+journal = {International Journal of Lexicography},
+number = {4},
+pages = {235--244},
+pmid = {15102489},
+title = {{Introduction to wordnet: An on-line lexical database}},
+volume = {3},
+year = {1990}
+}
+
+@book{Fellbaum1998,
+abstract = {WordNet, an electronic lexical database, is considered to be the most important resource available to researchers in computational linguistics, text analysis, and many related areas. Its design is inspired by current psycholinguistic and computational theories of human lexical memory. English nouns, verbs, adjectives, and adverbs are organized into synonym sets, each representing one underlying lexicalized concept. Different relations link the synonym sets. The purpose of this volume is twofold. First, it discusses the design of WordNet and the theoretical motivations behind it. Second, it provides a survey of representative applications, including word sense identification, information retrieval, selectional preferences of verbs, and lexical chains.},
+author = {Fellbaum, Christiane},
+booktitle = {British Journal Of Hospital Medicine London England 2005},
+doi = {10.1139/h11-025},
+isbn = {026206197X},
+issn = {17508460},
+number = {3},
+pages = {423},
+pmid = {21561289},
+title = {{WordNet: An Electronic Lexical Database}},
+url = {http://acl.ldc.upenn.edu/J/J99/J99-2008.pdf},
+volume = {71},
+year = {1998}
+}
+
+@article{Finlayson2011,
+abstract = {JWI (the MIT Java Wordnet Interface) is a Java library for interfacing with Wordnet. JWI supports access to Wordnet versions 1.6 through 3.0, among other related Wordnet extensions. Wordnet is a freely and publicly available semantic dictionary of English, developed at Princeton University. JWI is written for Java 1.5.0 and has the package namespace edu.mit.jwi. The distribution does not include the Wordnet dictionary files; these can be downloaded from the Wordnet download site. This version of software is distributed under a license that makes it free to use for all purposes, as long as proper copyright acknowledgement is made. The javadoc API is posted online for your convenience. So is the version changelog. If you find JWI useful, have found a bug, or would like to request a new feature, please contact me.},
+author = {Finlayson, Mark a.},
+file = {:home/adrian/current/licenta/bibliography/edu.mit.jwi\_2.3.3\_manual.pdf:pdf},
+pages = {1--10},
+title = {{MIT Java Wordnet Interface (JWI) User's Guide}},
+year = {2011}
+}

@@ -1,0 +1,13 @@
+\chapter{Implementation}
+\label{chapter:implementation}
+
+The architecture of the application contains two main modules: the graphical user interface (GUI), presented in \autoref{sec:impl-gui} and the actual implementation of the conversational agent, detailed in \autoref{sec:impl-conversational-agent}.
+
+\section{Graphical User Interface}
+\label{sec:impl-gui}
+
+\section{Conversational Agent}
+\label{sec:impl-conversational-agent}
+
+\section{Testing}
+\label{sec:testing}
