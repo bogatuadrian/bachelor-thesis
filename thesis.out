@@ -23,8 +23,11 @@
 \BOOKMARK [2][-]{subsection.5.1.1}{5.1.1 Front End}{section.5.1}% 23
 \BOOKMARK [2][-]{subsection.5.1.2}{5.1.2 Back End}{section.5.1}% 24
 \BOOKMARK [1][-]{section.5.2}{5.2 Conversational Agent}{chapter.5}% 25
-\BOOKMARK [1][-]{section.5.3}{5.3 Testing}{chapter.5}% 26
-\BOOKMARK [0][-]{chapter.6}{6 Results}{}% 27
-\BOOKMARK [0][-]{chapter.7}{7 Conclusions and Future Work}{}% 28
-\BOOKMARK [1][-]{section.7.1}{7.1 Summary}{chapter.7}% 29
-\BOOKMARK [1][-]{section.7.2}{7.2 Future Work}{chapter.7}% 30
+\BOOKMARK [2][-]{subsection.5.2.1}{5.2.1 Rule-based System Approach}{section.5.2}% 26
+\BOOKMARK [2][-]{subsection.5.2.2}{5.2.2 Answer Sentence Selection Approach}{section.5.2}% 27
+\BOOKMARK [1][-]{section.5.3}{5.3 Testing}{chapter.5}% 28
+\BOOKMARK [0][-]{chapter.6}{6 Results}{}% 29
+\BOOKMARK [0][-]{chapter.7}{7 Conclusions and Future Work}{}% 30
+\BOOKMARK [1][-]{section.7.1}{7.1 Summary}{chapter.7}% 31
+\BOOKMARK [1][-]{section.7.2}{7.2 Future Work}{chapter.7}% 32
+\BOOKMARK [0][-]{appendix.A}{A Class Diagrams}{}% 33

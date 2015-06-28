@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014/Arch Linux) (preloaded format=pdflatex 2015.5.29)  27 JUN 2015 12:22
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014/Arch Linux) (preloaded format=pdflatex 2015.5.29)  28 JUN 2015 18:17
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -63,13 +63,46 @@ File: babel.def 2014/09/25 3.9l Babel common definitions
 (/usr/share/texmf-dist/tex/latex/base/makeidx.sty
 Package: makeidx 2014/09/29 v1.0m Standard LaTeX package
 )
-(/usr/share/texmf-dist/tex/latex/geometry/geometry.sty
-Package: geometry 2010/09/12 v5.6 Page Geometry
+(/usr/share/texmf-dist/tex/latex/subfig/subfig.sty
+Package: subfig 2005/06/28 ver: 1.3 subfig package
 
 (/usr/share/texmf-dist/tex/latex/graphics/keyval.sty
 Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
 \KV@toks@=\toks19
 )
+(/usr/share/texmf-dist/tex/latex/caption/caption.sty
+Package: caption 2013/05/02 v3.3-89 Customizing captions (AR)
+
+(/usr/share/texmf-dist/tex/latex/caption/caption3.sty
+Package: caption3 2013/05/02 v1.6-88 caption3 kernel (AR)
+Package caption3 Info: TeX engine: e-TeX on input line 57.
+\captionmargin=\dimen104
+\captionmargin@=\dimen105
+\captionwidth=\dimen106
+\caption@tempdima=\dimen107
+\caption@indent=\dimen108
+\caption@parindent=\dimen109
+\caption@hangindent=\dimen110
+)
+\c@ContinuedFloat=\count90
+)
+\c@KVtest=\count91
+\sf@farskip=\skip43
+\sf@captopadj=\dimen111
+\sf@capskip=\skip44
+\sf@nearskip=\skip45
+\c@subfigure=\count92
+\c@subfigure@save=\count93
+\c@lofdepth=\count94
+\c@subtable=\count95
+\c@subtable@save=\count96
+\c@lotdepth=\count97
+\sf@top=\skip46
+\sf@bottom=\skip47
+)
+(/usr/share/texmf-dist/tex/latex/geometry/geometry.sty
+Package: geometry 2010/09/12 v5.6 Page Geometry
+
 (/usr/share/texmf-dist/tex/generic/oberdiek/ifpdf.sty
 Package: ifpdf 2011/01/30 v2.3 Provides the ifpdf switch (HO)
 Package ifpdf Info: pdfTeX in PDF mode is detected.
@@ -81,17 +114,17 @@ Package ifvtex Info: VTeX not detected.
 (/usr/share/texmf-dist/tex/generic/ifxetex/ifxetex.sty
 Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
 )
-\Gm@cnth=\count90
-\Gm@cntv=\count91
-\c@Gm@tempcnt=\count92
-\Gm@bindingoffset=\dimen104
-\Gm@wd@mp=\dimen105
-\Gm@odd@mp=\dimen106
-\Gm@even@mp=\dimen107
-\Gm@layoutwidth=\dimen108
-\Gm@layoutheight=\dimen109
-\Gm@layouthoffset=\dimen110
-\Gm@layoutvoffset=\dimen111
+\Gm@cnth=\count98
+\Gm@cntv=\count99
+\c@Gm@tempcnt=\count100
+\Gm@bindingoffset=\dimen112
+\Gm@wd@mp=\dimen113
+\Gm@odd@mp=\dimen114
+\Gm@even@mp=\dimen115
+\Gm@layoutwidth=\dimen116
+\Gm@layoutheight=\dimen117
+\Gm@layouthoffset=\dimen118
+\Gm@layoutvoffset=\dimen119
 \Gm@dimlist=\toks20
 )
 (/usr/share/texmf-dist/tex/latex/parskip/parskip.sty
@@ -152,14 +185,14 @@ Package: auxhook 2011/03/04 v1.3 Hooks for auxiliary files (HO)
 (/usr/share/texmf-dist/tex/latex/oberdiek/kvoptions.sty
 Package: kvoptions 2011/06/30 v3.11 Key value format for package options (HO)
 )
-\@linkdim=\dimen112
-\Hy@linkcounter=\count93
-\Hy@pagecounter=\count94
+\@linkdim=\dimen120
+\Hy@linkcounter=\count101
+\Hy@pagecounter=\count102
 
 (/usr/share/texmf-dist/tex/latex/hyperref/pd1enc.def
 File: pd1enc.def 2012/11/06 v6.83m Hyperref: PDFDocEncoding definition (HO)
 )
-\Hy@SavedSpaceFactor=\count95
+\Hy@SavedSpaceFactor=\count103
 
 (/usr/share/texmf-dist/tex/latex/latexconfig/hyperref.cfg
 File: hyperref.cfg 2002/06/06 v1.2 hyperref configuration of TeXLive
@@ -171,17 +204,17 @@ Package hyperref Info: Plain pages OFF on input line 4458.
 Package hyperref Info: Backreferencing OFF on input line 4463.
 Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
 Package hyperref Info: Bookmarks ON on input line 4688.
-\c@Hy@tempcnt=\count96
+\c@Hy@tempcnt=\count104
 
 (/usr/share/texmf-dist/tex/latex/url/url.sty
 \Urlmuskip=\muskip10
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 )
 LaTeX Info: Redefining \url on input line 5041.
-\XeTeXLinkMargin=\dimen113
-\Fld@menulength=\count97
-\Field@Width=\dimen114
-\Fld@charsize=\dimen115
+\XeTeXLinkMargin=\dimen121
+\Fld@menulength=\count105
+\Field@Width=\dimen122
+\Fld@charsize=\dimen123
 Package hyperref Info: Hyper figures OFF on input line 6295.
 Package hyperref Info: Link nesting OFF on input line 6300.
 Package hyperref Info: Hyper index ON on input line 6303.
@@ -191,32 +224,32 @@ Package hyperref Info: Link coloring with OCG OFF on input line 6320.
 Package hyperref Info: PDF/A mode OFF on input line 6325.
 LaTeX Info: Redefining \ref on input line 6365.
 LaTeX Info: Redefining \pageref on input line 6369.
-\Hy@abspage=\count98
-\c@Item=\count99
-\c@Hfootnote=\count100
+\Hy@abspage=\count106
+\c@Item=\count107
+\c@Hfootnote=\count108
 )
 
 Package hyperref Message: Driver (autodetected): hpdftex.
 
 (/usr/share/texmf-dist/tex/latex/hyperref/hpdftex.def
 File: hpdftex.def 2012/11/06 v6.83m Hyperref driver for pdfTeX
-\Fld@listcount=\count101
-\c@bookmark@seq@number=\count102
+\Fld@listcount=\count109
+\c@bookmark@seq@number=\count110
 
 (/usr/share/texmf-dist/tex/latex/oberdiek/rerunfilecheck.sty
 Package: rerunfilecheck 2011/04/15 v1.7 Rerun checks for auxiliary files (HO)
 Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 82.
 )
-\Hy@SectionHShift=\skip43
+\Hy@SectionHShift=\skip48
 )
-Package hyperref Info: Option `colorlinks' set `true' on input line 56.
+Package hyperref Info: Option `colorlinks' set `true' on input line 58.
 
 
 Package hyperref Warning: Option `bookmarks' has already been used,
-(hyperref)                setting the option has no effect on input line 56.
+(hyperref)                setting the option has no effect on input line 58.
 
-Package hyperref Info: Option `bookmarksnumbered' set `true' on input line 56.
+Package hyperref Info: Option `bookmarksnumbered' set `true' on input line 58.
 (/usr/share/texmf-dist/tex/latex/underscore/underscore.sty
 Package: underscore 2006/09/13
 LaTeX Info: Redefining \_ on input line 42.
@@ -237,29 +270,29 @@ Package graphics Info: Driver file: pdftex.def on input line 91.
 
 (/usr/share/texmf-dist/tex/latex/pdftex-def/pdftex.def
 File: pdftex.def 2011/05/27 v0.06d Graphics/color for pdfTeX
-\Gread@gobject=\count103
+\Gread@gobject=\count111
 ))
-\Gin@req@height=\dimen116
-\Gin@req@width=\dimen117
+\Gin@req@height=\dimen124
+\Gin@req@width=\dimen125
 )
 (/usr/share/texmf-dist/tex/latex/listings/listings.sty
-\lst@mode=\count104
+\lst@mode=\count112
 \lst@gtempboxa=\box26
 \lst@token=\toks21
-\lst@length=\count105
-\lst@currlwidth=\dimen118
-\lst@column=\count106
-\lst@pos=\count107
-\lst@lostspace=\dimen119
-\lst@width=\dimen120
-\lst@newlines=\count108
-\lst@lineno=\count109
-\lst@maxwidth=\dimen121
+\lst@length=\count113
+\lst@currlwidth=\dimen126
+\lst@column=\count114
+\lst@pos=\count115
+\lst@lostspace=\dimen127
+\lst@width=\dimen128
+\lst@newlines=\count116
+\lst@lineno=\count117
+\lst@maxwidth=\dimen129
 
 (/usr/share/texmf-dist/tex/latex/listings/lstmisc.sty
 File: lstmisc.sty 2014/09/06 1.5e (Carsten Heinz)
-\c@lstnumber=\count110
-\lst@skipnumbers=\count111
+\c@lstnumber=\count118
+\lst@skipnumbers=\count119
 \lst@framebox=\box27
 )
 (/usr/share/texmf-dist/tex/latex/listings/listings.cfg
@@ -269,9 +302,9 @@ Package: listings 2014/09/06 1.5e (Carsten Heinz)
 
 (/usr/share/texmf-dist/tex/latex/nomencl/nomencl.sty
 Package: nomencl 2005/09/22 v4.2 Nomenclature package (LN)
-\nomlabelwidth=\dimen122
-\nom@tempdim=\dimen123
-\nomitemsep=\skip44
+\nomlabelwidth=\dimen130
+\nom@tempdim=\dimen131
+\nomitemsep=\skip49
 )
 \@nomenclaturefile=\write3
 \openout3 = `thesis.nlo'.
@@ -280,37 +313,37 @@ Package: nomencl 2005/09/22 v4.2 Nomenclature package (LN)
 Writing nomenclature file thesis.nlo
 (/usr/share/texmf-dist/tex/latex/bigfoot/perpage.sty
 Package: perpage 2014/10/25 2.0 Reset/sort counters per page
-\c@abspage=\count112
+\c@abspage=\count120
 )
-\c@pp@a@footnote=\count113
+\c@pp@a@footnote=\count121
 
 (/usr/share/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty
-\fancy@headwidth=\skip45
-\f@ncyO@elh=\skip46
-\f@ncyO@erh=\skip47
-\f@ncyO@olh=\skip48
-\f@ncyO@orh=\skip49
-\f@ncyO@elf=\skip50
-\f@ncyO@erf=\skip51
-\f@ncyO@olf=\skip52
-\f@ncyO@orf=\skip53
+\fancy@headwidth=\skip50
+\f@ncyO@elh=\skip51
+\f@ncyO@erh=\skip52
+\f@ncyO@olh=\skip53
+\f@ncyO@orh=\skip54
+\f@ncyO@elf=\skip55
+\f@ncyO@erf=\skip56
+\f@ncyO@olf=\skip57
+\f@ncyO@orf=\skip58
 )
 (/usr/share/texmf-dist/tex/latex/tools/longtable.sty
 Package: longtable 2014/10/28 v4.11 Multi-page Table package (DPC)
-\LTleft=\skip54
-\LTright=\skip55
-\LTpre=\skip56
-\LTpost=\skip57
-\LTchunksize=\count114
-\LTcapwidth=\dimen124
+\LTleft=\skip59
+\LTright=\skip60
+\LTpre=\skip61
+\LTpost=\skip62
+\LTchunksize=\count122
+\LTcapwidth=\dimen132
 \LT@head=\box28
 \LT@firsthead=\box29
 \LT@foot=\box30
 \LT@lastfoot=\box31
-\LT@cols=\count115
-\LT@rows=\count116
-\c@LT@tables=\count117
-\c@LT@chunks=\count118
+\LT@cols=\count123
+\LT@rows=\count124
+\c@LT@tables=\count125
+\c@LT@chunks=\count126
 \LT@p@ftn=\toks22
 )
 (/usr/share/texmf-dist/tex/latex/tools/verbatim.sty
@@ -328,23 +361,23 @@ LaTeX Font Info:    Redeclaring font encoding T1 on input line 43.
 ))
 (/usr/share/texmf-dist/tex/latex/tools/multicol.sty
 Package: multicol 2014/10/28 v1.8i multicolumn formatting (FMi)
-\c@tracingmulticols=\count119
+\c@tracingmulticols=\count127
 \mult@box=\box32
-\multicol@leftmargin=\dimen125
-\c@unbalance=\count120
-\c@collectmore=\count121
-\doublecol@number=\count122
-\multicoltolerance=\count123
-\multicolpretolerance=\count124
-\full@width=\dimen126
-\page@free=\dimen127
-\premulticols=\dimen128
-\postmulticols=\dimen129
-\multicolsep=\skip58
-\multicolbaselineskip=\skip59
+\multicol@leftmargin=\dimen133
+\c@unbalance=\count128
+\c@collectmore=\count129
+\doublecol@number=\count130
+\multicoltolerance=\count131
+\multicolpretolerance=\count132
+\full@width=\dimen134
+\page@free=\dimen135
+\premulticols=\dimen136
+\postmulticols=\dimen137
+\multicolsep=\skip63
+\multicolbaselineskip=\skip64
 \partial@page=\box33
 \last@line=\box34
-\maxbalancingoverflow=\dimen130
+\maxbalancingoverflow=\dimen138
 \mult@rightbox=\box35
 \mult@grightbox=\box36
 \mult@gfirstbox=\box37
@@ -366,53 +399,14 @@ Package: multicol 2014/10/28 v1.8i multicolumn formatting (FMi)
 \@tempa=\box53
 \@tempa=\box54
 \@tempa=\box55
-\c@columnbadness=\count125
-\c@finalcolumnbadness=\count126
-\last@try=\dimen131
-\multicolovershoot=\dimen132
-\multicolundershoot=\dimen133
+\c@columnbadness=\count133
+\c@finalcolumnbadness=\count134
+\last@try=\dimen139
+\multicolovershoot=\dimen140
+\multicolundershoot=\dimen141
 \mult@nat@firstbox=\box56
 \colbreak@box=\box57
-\mc@col@check@num=\count127
-)
-(/usr/share/texmf-dist/tex/latex/subfig/subfig.sty
-Package: subfig 2005/06/28 ver: 1.3 subfig package
-
-(/usr/share/texmf-dist/tex/latex/caption/caption.sty
-Package: caption 2013/05/02 v3.3-89 Customizing captions (AR)
-
-(/usr/share/texmf-dist/tex/latex/caption/caption3.sty
-Package: caption3 2013/05/02 v1.6-88 caption3 kernel (AR)
-Package caption3 Info: TeX engine: e-TeX on input line 57.
-\captionmargin=\dimen134
-\captionmargin@=\dimen135
-\captionwidth=\dimen136
-\caption@tempdima=\dimen137
-\caption@indent=\dimen138
-\caption@parindent=\dimen139
-\caption@hangindent=\dimen140
-)
-\c@ContinuedFloat=\count128
-Package caption Info: hyperref package is loaded.
-Package caption Info: listings package is loaded.
-Package caption Info: longtable package is loaded.
-
-(/usr/share/texmf-dist/tex/latex/caption/ltcaption.sty
-Package: ltcaption 2013/02/03 v1.3-62 longtable captions (AR)
-))
-\c@KVtest=\count129
-\sf@farskip=\skip60
-\sf@captopadj=\dimen141
-\sf@capskip=\skip61
-\sf@nearskip=\skip62
-\c@subfigure=\count130
-\c@subfigure@save=\count131
-\c@lofdepth=\count132
-\c@subtable=\count133
-\c@subtable@save=\count134
-\c@lotdepth=\count135
-\sf@top=\skip63
-\sf@bottom=\skip64
+\mc@col@check@num=\count135
 )
 (/usr/share/texmf-dist/tex/latex/booktabs/booktabs.sty
 Package: booktabs 2005/04/14 v1.61803 publication quality tables
@@ -436,7 +430,7 @@ Package: booktabs 2005/04/14 v1.61803 publication quality tables
 )
 (/usr/share/texmf-dist/tex/latex/multirow/multirow.sty
 \bigstrutjot=\dimen155
-))
+)
 (/usr/share/texmf-dist/tex/latex/amsmath/amsmath.sty
 Package: amsmath 2013/01/14 v2.14 AMS math features
 \@mathmargin=\skip65
@@ -494,7 +488,7 @@ LaTeX Font Info:    Redeclaring font encoding OMS on input line 567.
 \mathdisplay@stack=\toks29
 LaTeX Info: Redefining \[ on input line 2665.
 LaTeX Info: Redefining \] on input line 2666.
-)
+))
 \@indexfile=\write4
 \openout4 = `thesis.idx'.
 
@@ -524,6 +518,17 @@ LaTeX Font Info:    ... okay on input line 3.
 (/usr/share/texmf-dist/tex/latex/ucs/ucsencs.def
 File: ucsencs.def 2011/01/21 Fixes to fontencodings LGR, T3
 )
+Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: subfig package v1.3 is loaded.
+Package caption Info: hyperref package is loaded.
+Package caption Info: listings package is loaded.
+Package caption Info: longtable package is loaded.
+
+(/usr/share/texmf-dist/tex/latex/caption/ltcaption.sty
+Package: ltcaption 2013/02/03 v1.3-62 longtable captions (AR)
+)
+Package caption Info: End \AtBeginDocument code.
+
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
 *geometry* verbose mode - [ preamble ] result:
@@ -612,9 +617,6 @@ File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
 \c@lstlisting=\count159
-Package caption Info: Begin \AtBeginDocument code.
-Package caption Info: subfig package v1.3 is loaded.
-Package caption Info: End \AtBeginDocument code.
 
 (./src/global.tex) (./template/titlepage.ro.tex
 (/usr/share/texmf-dist/tex/latex/ucs/data/uni-2.def
@@ -623,14 +625,14 @@ File: uni-2.def 2013/05/13 UCS: Unicode data U+0200..U+02FF
 (/usr/share/texmf-dist/tex/latex/ucs/data/uni-1.def
 File: uni-1.def 2013/05/13 UCS: Unicode data U+0100..U+01FF
 )
-<src/img/branding/upb.png, id=124, 598.235pt x 598.235pt>
+<src/img/branding/upb.png, id=136, 598.235pt x 598.235pt>
 File: src/img/branding/upb.png Graphic file (type png)
 
 <use src/img/branding/upb.png>
 Package pdftex.def Info: src/img/branding/upb.png used on input line 12.
 (pdftex.def)             Requested size: 53.63545pt x 53.62888pt.
 
-<src/img/branding/cs.png, id=125, 695.59875pt x 307.1475pt>
+<src/img/branding/cs.png, id=137, 695.59875pt x 307.1475pt>
 File: src/img/branding/cs.png Graphic file (type png)
 
 <use src/img/branding/cs.png>
@@ -663,24 +665,24 @@ identifier (name{page.i}) has been already used, duplicate ignored
 l.3 \tableofcontents
                      [1
 
-] (./thesis.toc)
+] (./thesis.toc [2
+
+])
 \tf@toc=\write6
 \openout6 = `thesis.toc'.
 
- [2
-
-] (./thesis.lof)
+ [3] (./thesis.lof)
 \tf@lof=\write7
 \openout7 = `thesis.lof'.
 
- [3
+ [4
 
-] (./thesis.lot)
+]
+(./thesis.lot)
 \tf@lot=\write8
 \openout8 = `thesis.lot'.
 
-
-[4
+ [5
 
 ] (./thesis.lol)
 \tf@lol=\write9
@@ -688,7 +690,7 @@ l.3 \tableofcontents
 
 )
 No file thesis.nls.
-[5
+[6
 
 ] (./src/main.tex
 \openout2 = `src/chapters/intro.aux'.
@@ -749,7 +751,7 @@ Overfull \hbox (15.85866pt too wide) in paragraph at lines 89--90
 o-cess-ing are: "to-k-enize", "cleanxml",
  []
 
-<src/img/corenlp-pipeline.png, id=308, 1108.14pt x 683.55376pt>
+<src/img/corenlp-pipeline.png, id=343, 1108.14pt x 683.55376pt>
 File: src/img/corenlp-pipeline.png Graphic file (type png)
 
 <use src/img/corenlp-pipeline.png>
@@ -761,7 +763,7 @@ Overfull \hbox (13.08804pt too wide) in paragraph at lines 140--141
 en-tion de-tec-tion and both pronom-
  []
 
-<src/img/dcoref.png, id=341, 1233.60875pt x 98.3675pt>
+<src/img/dcoref.png, id=376, 1233.60875pt x 98.3675pt>
 File: src/img/dcoref.png Graphic file (type png)
 
 <use src/img/dcoref.png>
@@ -773,16 +775,56 @@ Package pdftex.def Info: src/img/dcoref.png used on input line 147.
 
 (./src/chapters/implementation.tex
 Chapter 5.
-) [10
+<src/img/web-app-first.png, id=392, 1326.9575pt x 253.94875pt>
+File: src/img/web-app-first.png Graphic file (type png)
+
+<use src/img/web-app-first.png>
+Package pdftex.def Info: src/img/web-app-first.png used on input line 25.
+(pdftex.def)             Requested size: 412.56497pt x 78.95578pt.
+
+<src/img/web-app-second.png, id=394, 771.88374pt x 617.30624pt>
+File: src/img/web-app-second.png Graphic file (type png)
+
+<use src/img/web-app-second.png>
+Package pdftex.def Info: src/img/web-app-second.png used on input line 35.
+(pdftex.def)             Requested size: 412.56497pt x 329.94003pt.
+ [10
 
 
 
-] [11]
+] [11 <./src/img/web-app-first.png> <./src/img/web-app-second.png>] (/usr/share
+/texmf-dist/tex/latex/listings/lstlang1.sty
+File: lstlang1.sty 2014/09/06 1.5e listings language file
+) (/usr/share/texmf-dist/tex/latex/listings/lstlang2.sty
+File: lstlang2.sty 2014/09/06 1.5e listings language file
+)
+(./src/code/chatbot.php
+LaTeX Font Info:    Font shape `T1/cmtt/bx/n' in size <10.95> not available
+(Font)              Font shape `T1/cmtt/m/n' tried instead on input line 13.
+)
+<src/img/client-server-flow.png, id=415, 770.88pt x 460.119pt>
+File: src/img/client-server-flow.png Graphic file (type png)
+
+<use src/img/client-server-flow.png>
+Package pdftex.def Info: src/img/client-server-flow.png used on input line 56.
+(pdftex.def)             Requested size: 412.56497pt x 246.249pt.
+ [12] [13 <./src/img/client-server-flow.png>] (/usr/share/texmf-dist/tex/latex/
+ucs/data/uni-32.def
+File: uni-32.def 2013/05/13 UCS: Unicode data U+2000..U+20FF
+) [14]
+<src/img/pipeline-lexical.png, id=462, 599.841pt x 237.88875pt>
+File: src/img/pipeline-lexical.png Graphic file (type png)
+
+<use src/img/pipeline-lexical.png>
+Package pdftex.def Info: src/img/pipeline-lexical.png used on input line 128.
+(pdftex.def)             Requested size: 412.56497pt x 163.62433pt.
+ [15 <./src/img/pipeline-lexical.png>])
+[16]
 \openout2 = `src/chapters/results.aux'.
 
  (./src/chapters/results.tex
 Chapter 6.
-) [12
+) [17
 
 
 
@@ -791,39 +833,61 @@ Chapter 6.
 
  (./src/chapters/conclusions.tex
 Chapter 7.
-) [13
+) [18
 
 
 
-]) (./src/appendix/index.tex) (./thesis.bbl
-(/usr/share/texmf-dist/tex/latex/ucs/data/uni-32.def
-File: uni-32.def 2013/05/13 UCS: Unicode data U+2000..U+20FF
-) [14
+]) (./src/appendix/index.tex (./src/appendix/class.diagrams.tex
+Appendix A.
+<src/img/diagram-chatserver.png, id=481, 399.4925pt x 514.92375pt>
+File: src/img/diagram-chatserver.png Graphic file (type png)
 
+<use src/img/diagram-chatserver.png>
+Package pdftex.def Info: src/img/diagram-chatserver.png used on input line 9.
+(pdftex.def)             Requested size: 206.28249pt x 265.88403pt.
+
+<src/img/diagram-searcher.png, id=482, 495.8525pt x 477.785pt>
+File: src/img/diagram-searcher.png Graphic file (type png)
+
+<use src/img/diagram-searcher.png>
+Package pdftex.def Info: src/img/diagram-searcher.png used on input line 15.
+(pdftex.def)             Requested size: 206.28249pt x 198.76553pt.
+
+<src/img/diagram-lemmatizable.png, id=483, 789.95125pt x 479.7925pt>
+File: src/img/diagram-lemmatizable.png Graphic file (type png)
+
+<use src/img/diagram-lemmatizable.png>
+Package pdftex.def Info: src/img/diagram-lemmatizable.png used on input line 24
+.
+(pdftex.def)             Requested size: 412.56497pt x 250.57704pt.
+)) (./thesis.bbl [19
+
+
+ <./src/img/diagram-chatserver.png> <./src/img/diagram-searcher.png>] [20 <./sr
+c/img/diagram-lemmatizable.png>] [21
 
 ]) (./thesis.ind)
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 40.
-
-[15]
+ [22]
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 40.
- (./thesis.aux (./src/chapters/intro.aux) (./src/chapters/project.aux)
-(./src/chapters/related.aux) (./src/chapters/tools.aux)
-(./src/chapters/implementation.aux) (./src/chapters/results.aux)
-(./src/chapters/conclusions.aux))
+ (./thesis.aux (./src/chapters/intro.aux)
+(./src/chapters/project.aux) (./src/chapters/related.aux)
+(./src/chapters/tools.aux) (./src/chapters/implementation.aux)
+(./src/chapters/results.aux) (./src/chapters/conclusions.aux))
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 40.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 40.
 Package rerunfilecheck Info: File `thesis.out' has not changed.
-(rerunfilecheck)             Checksum: 2091D43981A83269779F28A34422E88F;1984.
+(rerunfilecheck)             Checksum: 7B9B7863263D51DD1243BB53AA05EB54;2217.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 40.
  ) 
 Here is how much of TeX's memory you used:
- 11933 strings out of 493109
- 169476 string characters out of 6140856
- 282725 words of memory out of 5000000
- 15018 multiletter control sequences out of 15000+600000
- 28770 words of font info for 69 fonts, out of 8000000 for 9000
+ 13967 strings out of 493109
+ 205547 string characters out of 6140856
+ 578752 words of memory out of 5000000
+ 16984 multiletter control sequences out of 15000+600000
+ 29086 words of font info for 70 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 51i,15n,45p,984b,1157s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 51i,15n,45p,1128b,2954s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}</usr/share/t
 exmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texmf-dist/font
 s/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texmf-dist/fonts/type1/public
@@ -832,20 +896,21 @@ s/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texmf-dist/fonts/type1/public
 hare/texmf-dist/fonts/type1/public/cm-super/sfbx1440.pfb></usr/share/texmf-dist
 /fonts/type1/public/cm-super/sfbx2074.pfb></usr/share/texmf-dist/fonts/type1/pu
 blic/cm-super/sfbx2488.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/s
-frm0600.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfrm0700.pfb></u
-sr/share/texmf-dist/fonts/type1/public/cm-super/sfrm0800.pfb></usr/share/texmf-
-dist/fonts/type1/public/cm-super/sfrm0900.pfb></usr/share/texmf-dist/fonts/type
-1/public/cm-super/sfrm1095.pfb></usr/share/texmf-dist/fonts/type1/public/cm-sup
-er/sfrm1440.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfrm1728.pfb
-></usr/share/texmf-dist/fonts/type1/public/cm-super/sfrm2488.pfb></usr/share/te
-xmf-dist/fonts/type1/public/cm-super/sfss0900.pfb></usr/share/texmf-dist/fonts/
-type1/public/cm-super/sfss1095.pfb></usr/share/texmf-dist/fonts/type1/public/cm
--super/sfti0600.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfti1095
-.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sftt1095.pfb>
-Output written on thesis.pdf (22 pages, 522251 bytes).
+fit1095.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfrm0600.pfb></u
+sr/share/texmf-dist/fonts/type1/public/cm-super/sfrm0700.pfb></usr/share/texmf-
+dist/fonts/type1/public/cm-super/sfrm0800.pfb></usr/share/texmf-dist/fonts/type
+1/public/cm-super/sfrm0900.pfb></usr/share/texmf-dist/fonts/type1/public/cm-sup
+er/sfrm1095.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfrm1440.pfb
+></usr/share/texmf-dist/fonts/type1/public/cm-super/sfrm1728.pfb></usr/share/te
+xmf-dist/fonts/type1/public/cm-super/sfrm2488.pfb></usr/share/texmf-dist/fonts/
+type1/public/cm-super/sfss0900.pfb></usr/share/texmf-dist/fonts/type1/public/cm
+-super/sfss1095.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfti0600
+.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfti1095.pfb></usr/shar
+e/texmf-dist/fonts/type1/public/cm-super/sftt1095.pfb>
+Output written on thesis.pdf (30 pages, 890595 bytes).
 PDF statistics:
- 476 PDF objects out of 1000 (max. 8388607)
- 418 compressed objects within 5 object streams
- 92 named destinations out of 1000 (max. 500000)
- 261 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 608 PDF objects out of 1000 (max. 8388607)
+ 526 compressed objects within 6 object streams
+ 135 named destinations out of 1000 (max. 500000)
+ 320 words of extra memory for PDF output out of 10000 (max. 10000000)
 

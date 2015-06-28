@@ -1,10 +1,11 @@
 \chapter{Introduction}
 \label{chapter:intro}
 
-\ignore{65}More than 60 years ago, Alan Turing raised the question "Can machines think?" \cite{Turing1950}.
+\ignore{65}More than 60 years ago, Alan Turing raised the question "Can machines think?" \cite{Turing1950}. 
 \\
 Can people believe that a machine thinks?
 
+\begin{comment}
 \section{Natural Language Processing}
 \label{sec:nlp}
 
@@ -17,9 +18,7 @@ Natural Language Processing (NLP)
 \label{sec:intro-qa}
 
 Question Answering (QA)
-
-\section{Project Objectives and Motivation}
-\label{sec:proj}
+\end{comment}
 
 % HELPERS
 
