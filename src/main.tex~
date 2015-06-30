@@ -4,6 +4,9 @@
 % Introduction
 \include{src/chapters/intro}
 
+% Project Overview
+\include{src/chapters/project}
+
 % Related Work
 \include{src/chapters/related}
 

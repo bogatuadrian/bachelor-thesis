@@ -1,12 +1,37 @@
 \chapter{Project Overview}
 \label{chapter:project}
 
+The conversational agent for interacting with historical figures is an already existing project and it is designed as a rule-based system, with rules generated from information extracted from DBpedia and Wikipedia. The solution proposed in this thesis is a complement to the initial implementation of the agent and it is used as a fallback method in case the first approach cannot deliver an answer to a user question.
+
+The following sections present why this project is relevant, what are the goals it attempts to achieve and a short description on the steps taken to achieve these goals.
 
 \section{Project Motivation}
 \label{sec:project-motivation}
 
-\section{Project Objective}
-\label{sec:project-objective}
+In an age of computerization and advancement of technology, natural interaction with devices for both socialization and education has become more and more important. This started since the dawn of the Internet, when information has become wildly accessible.
+
+\section{Project Objectives}
+\label{sec:project-objectives}
+
+The main objective of this project is to build a question answering system in the form of a conversational agent that can be used as an historical e-learning method for children and a virtual tour guide in museums. Therefore, the program must have a high correctness rate and also, even if the conversational agent has a set of possible answers, but the answer are scored poorly because the probability of them answering the question is small, these answers should be ignored.
+
+The main focus of this project is the conversational agent to be able to correctly answer questions about different moments in their life, like important dates ("When did you win your first war?", "When did you fight in the battle of ...?" etc.), important places ("Where were you born?", "Where did you die?" etc.), important people ("Who was your wife?", "Who are your children" etc.) or other miscellaneous facts ("What was your debut album?", "What instrument did you play?" etc.). As one can see, the relation between the question words and the category of the answer is not coincidental. More details about the use of the type of the question ({\em when, where, who, what etc.}) can be found in \autoref{chapter:implementation}.
+
+To accomplish all that, it means  that the conversational agent must do two things. First, the agent has to understand the question, in order to create relevant queries to interrogate its knowledgebase. Second, the program must store the information about a given person in a structured manner so that the retrieval of relevant information and analysis and manipulation of content is easy to achieve.
+
+In addition to the accuracy of the information in the answer, the program should also achieve good results in both speed performance and memory usage. The methods of doing that are presented at the beginning of \autoref{sub-sec:impl-ca-ass}.
 
 \section{Project Description}
 \label{sec:project-description}
+
+The conversational agent that is the subject of this thesis is implemented as a dialog system that is intended to impersonate a given historical figure or, in general, a known person that has an accessible biographical corpus. This approach implies that the chat-bot can be "aware" of the historical facts and details in the life of the person it impersonates by extracting relevant information from the biographical corpus of that person. This means that the conversational agent is able to find the information that are semantically closest to the question and, therefore, answer the question correctly.
+
+As stated before, the project is made up of two components. The first one is a preexisting part of this project and it implies using a set of generated rules that help the agent retrieve the answer based on the input question. The second one is the component described in this thesis that employs the answer sentence selection method and sequentially filters the sentences from the biography until the correct (or, at least, most probable) answer remains.
+
+These two components are presented in the next two paragraphs and their implementation is explained in \autoref{chapter:implementation}.
+
+{\em Rule-based system.} A rule-based system is a system that attempts to match a given input on a set of rules in order to produce an output. The initial implementation uses ChatScript, a chat-bot engine that interprets scripts containing rules of the form of question-answer pairs. ChatScript is presented in \autoref{sec:chatscript}. The rules are generated starting from DBpedia properties and matching them with information extracted from Wikipedia. Details on the implementations can be found in \autoref{sub-sec:impl-ca-rule-based}.
+
+{\em Answer sentence selection.} Answer sentence selection is the task of finding a sentence that most likely answers the given question starting from a set of sentences where the answer might be. In the case of the conversational agent being discussed, the set of possible answers is the set of all the sentences in the Wikipedia article of the historical figure being impersonated. So, given a question, the task at hand is to select the right sentence (or to filter out the wrong ones) that has the highest probability of being the correct answer. The mentioned probability is a function of different kinds of scoring employed, that are explained later on in the thesis.
+
+The second approach brings improvements to the original method. Arguments to support this are presented in \autoref{sub-sec:impl-ca-ass}.

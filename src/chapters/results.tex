@@ -1,2 +1,66 @@
 \chapter{Results}
 \label{chapter:results}
+
+As stated in \autoref{sec:testing}, the testing was done by hand, therefore no exact information about the accuracy of the answers are known. What was observed during the testing is that in the majority of the cases, the answer was somewhere in the top 10 sentences outputted by the lexical pipeline.
+
+Some examples of questions that were answered by the rule-based method, using ChatScript follow (the personality is Alber Einstein):
+
+\textbf{Question}: {\em Where were you born?}
+\\
+\textbf{Answer}: I was born in Ulm, in the Kingdom of Wurttemberg in the German Empire on 14 March 1879.
+
+\textbf{Question}: {\em When did you die?}
+\\
+\textbf{Answer}: I died in Princeton Hospital early the next morning at the
+age of 76, having continued to work until near the end.
+
+\textbf{Question}: {\em Who were you married with?}
+\\
+\textbf{Answer}: I married Elsa Löwenthal on 2 June 1919, after having
+had a relationship with me since 1912.
+
+Some example of questions posed to Albert Einstein, and answered using the second method (the answer sentence selection method):
+
+\textbf{Question}: {\em What awards did you receive?}
+\\
+\textbf{Answer}: I received numerous awards and honors, including the Nobel Prize in Physics.
+
+\textbf{Question}: {\em What field did you study in?}
+\\
+\textbf{Answer}: There have been claims that Marić collaborated with I on my celebrated 1905 papers, but historians of physics who have studied the issue find no evidence that I made any substantive contributions. 
+
+As it can be seen in the previous example, the answer is not always given directly, but sometimes it is just hinted.
+
+\pagebreak
+
+Here are some examples of answers given by John Lennon, using answer sentence selection.
+
+\textbf{Question}: {\em Who was your wife?}
+\\
+\textbf{Answer}: Cynthia Lennon (1st wife)
+
+\textbf{Question}: {\em When did you die?}
+\\
+\textbf{Answer}: December 8, 1980: The Day I Died.
+
+\textbf{Question}: {\em Who shot you?}
+\\
+\textbf{Answer}: At around 10:50 pm on 8 December 1980, as I and Ono returned to our New York apartment in the Dakota, Mark David Chapman shot me in the back four times at the entrance to the building.
+
+\textbf{Question}: {\em What instrument did you play?}
+\\
+\textbf{Answer}: I would continue to play harmonica, often using the instrument during the Beatles' Hamburg years, and it became a signature sound in the group's early recordings.
+
+As seen in the previous example, even that the answer is correct, it is not the perfect answer, John Lennon being mainly known for playing the guitar.
+
+\textbf{Question}: {\em What was your debut album?}
+\\
+\textbf{Answer}: They recorded their debut album, Please Please Me, in under 10 hours on 11 February 1963, a day when I was suffering the effects of a cold, which is evident in the vocal on the last song to be recorded that day, "Twist and Shout".
+
+In the last example the answer is, again, partially correct. The phrase refers to The Beatles' first album, not John Lennon's album. Fortunately, disambiguation was obtained with the following question.
+
+\textbf{Question}: {\em What was your debut solo album?}
+\\
+\textbf{Answer}: My emotional debut solo album, John Lennon/Plastic Ono Band (1970), was received with high praise.
+
+Because the time it takes to select the answer depends on the number of queries (which is equal to the number of rephrased question), which, in turn, depends on the length of the user question and the number of the synonyms of the words in the question, it is very hard to establish a speed performance benchmark. From the tests done, it is noticeable that all the answers took less than 700 ms on a Intel(R) Core(TM) i5-2450M CPU @ 2.50GHz.

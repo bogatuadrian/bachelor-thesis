@@ -1,8 +1,24 @@
 \chapter{Conclusions and Future Work}
 \label{chapter:conclusions}
 
+This chapter presents the general conclusions drawn from the efforts made on working on a complex conversational agent. In addition, some new ideas and some improvements on old ones are suggested for future work in \autoref{sec:future}.
+
 \section{Summary}
 \label{sec:conclusions-summary}
 
+In this thesis are presented at length the concept, design and implementation (that uses answer sentence selection) of a conversational agent that can impersonate a historical figure, or any other personality that has a Wikipedia article with their name. The method described is, in fact, a fallback option if the initial approach, based on rules interpreted by ChatScript and matched against user posed questions, does not succeed in answering a particular question.
+
+The approach that is at the center of this thesis is inspired by many advancements made in the world of conversational agents and open domain question answering fields. This approach uses state of the art tools to offer speed, small memory footprint and accuracy to the user, in order to improve the experience of talking with, and learning from, a dialog system that responds as if it were a known personality.
+
+The implementation adds to the performance and also to configurability to provide a final software that is intended to be used for learning (as an e-tutor) or as a virtual guide in museum, because it can provide information about the life and work of any known person.
+
 \section{Future Work}
 \label{sec:future}
+
+In order to better improve the program as a whole it is essential to improve both speed and answer accuracy.
+
+For the first matter, that of performance, the simple approach of parallelism can be taken. Because of the pipeline architecture of the program, parallelization cannot be applied on the entire program, but separate modules that form the pipeline can be multithreaded. For example, the text search can be done in parallel, by splitting the paragraph into sets or use the thread pool problem and get each thread to process a set of alternative queries generated from the initial question.
+
+For the second matter, many interesting ideas can be pursued. One of these ideas is to use genetic algorithms to determine what is the best formula (what are the best weights used) for computing the score for a sentence. Another variable that influences the outcome and should be accurately determined is the number of top paragraphs and/or top sentences selected after searching the query.
+
+Another goal is to extend the taxonomy of questions, in order for the conversational agent to correctly answer more ambiguous questions like the ones starting with "why" or the ones starting with "did you" or "would you".

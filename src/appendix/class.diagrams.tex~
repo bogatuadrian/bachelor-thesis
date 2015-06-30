@@ -25,12 +25,3 @@
   \caption{Class diagram for the objects (paragraph, sentence) being manipulated}
   \label{fig:diagram-lemmatizable}
 \end{figure}
-
-
-\begin{figure}[htb]
-  \centering
-  \captionsetup{justification=centering}
-  \includegraphics[width=\textwidth]{src/img/diagram-dictionary.png}
-  \caption{Class diagram for the query used to interrogate the knowledge base}
-  \label{fig:diagram-dictionary}
-\end{figure}
